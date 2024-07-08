@@ -1,7 +1,9 @@
 package com.myyy.reggie.controller;
 
 import com.baomidou.mybatisplus.core.conditions.query.LambdaQueryWrapper;
+import com.baomidou.mybatisplus.core.conditions.update.LambdaUpdateWrapper;
 import com.baomidou.mybatisplus.extension.plugins.pagination.Page;
+import com.myyy.reggie.common.CustomException;
 import com.myyy.reggie.common.R;
 import com.myyy.reggie.dto.DishDto;
 import com.myyy.reggie.entity.Category;
@@ -127,6 +129,33 @@ public class DishController {
     }
 
     /**
+     * 菜品删除
+     * @param ids
+     * @return
+     */
+    @DeleteMapping
+    public R<String> delete(@RequestParam List<Long> ids){
+        log.info("删除的菜品ID为: {}", ids.toString());
+
+        //条件构造器
+        LambdaQueryWrapper<Dish> queryWrapper = new LambdaQueryWrapper<>();
+        //添加过滤条件
+        queryWrapper.in(Dish::getId, ids);
+        queryWrapper.eq(Dish::getStatus,1);
+
+        int count = dishService.count(queryWrapper);
+        if(count > 0){
+            //如果不能删除，抛出一个业务异常
+            throw new CustomException("菜品正在售卖中，不能删除");
+        }
+
+        //删除对应菜品
+        dishService.removeByIds(ids);
+
+        return R.success("菜品删除成功");
+    }
+
+    /**
      * 根据条件查询对应的菜品数据
      * @param dish
      * @return
@@ -187,4 +216,24 @@ public class DishController {
         return R.success(dishDtoList);
     }
 
+    /**
+     * 修改套餐状态
+     *
+     * @param status
+     * @param ids
+     * @return
+     */
+    @PostMapping("/status/{status}")
+    public R<String> updateStatus(@PathVariable Integer status, @RequestParam List<Long> ids) {
+
+        log.info("更改菜品状态: {}", ids.toString());
+
+        LambdaUpdateWrapper<Dish> queryWrapper = new LambdaUpdateWrapper<>();
+        queryWrapper.in(Dish::getId, ids);
+        queryWrapper.set(ids.size() != 0, Dish::getStatus, status);
+
+        dishService.update(queryWrapper);
+
+        return R.success("更改菜品状态成功");
+    }
 }
