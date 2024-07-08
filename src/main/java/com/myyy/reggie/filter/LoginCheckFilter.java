@@ -16,7 +16,6 @@ import java.io.IOException;
 /**
  * 检查用户是否已经完成登录
  */
-@Component
 @WebFilter(filterName = "loginCheckFilter",urlPatterns = "/*")
 @Slf4j
 public class LoginCheckFilter implements Filter{
