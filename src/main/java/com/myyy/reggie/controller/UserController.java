@@ -91,7 +91,6 @@ public class UserController {
             queryWrapper.eq(User::getPhone,phone);
 
             User user = userService.getOne(queryWrapper);
-            log.info(user.toString());
             if(user == null){
                 //判断当前手机号对应的用户是否为新用户，如果是新用户就自动完成注册
                 user = new User();
@@ -106,6 +105,19 @@ public class UserController {
             return R.success(user);
         }
         return R.error("登录失败");
+    }
+
+    /**
+     * 用户退出
+     * @param session
+     * @return
+     */
+    @PostMapping("/loginout")
+    public R<String> login(HttpSession session){
+
+        session.removeAttribute("phone");
+
+        return R.success("退出成功");
     }
 
 }

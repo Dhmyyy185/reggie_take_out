@@ -9,6 +9,7 @@ import com.myyy.reggie.entity.*;
 import com.myyy.reggie.mapper.OrderMapper;
 import com.myyy.reggie.service.*;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
@@ -104,5 +105,29 @@ public class OrderServiceImpl extends ServiceImpl<OrderMapper, Orders> implement
 
         //清空购物车数据
         shoppingCartService.remove(wrapper);
+    }
+
+    @Override
+    public void again(Orders orders) {
+        //获取订单id
+        Long ordersId = orders.getId();
+
+        //在order_detail表中查询订单内的菜品
+        LambdaQueryWrapper<OrderDetail> queryWrapper = new LambdaQueryWrapper<>();
+        queryWrapper.eq(OrderDetail::getOrderId, ordersId);
+        List<OrderDetail> list = orderDetailService.list(queryWrapper);
+
+        List<ShoppingCart> listForShop = list.stream().map((item)->{
+            ShoppingCart shoppingCart = new ShoppingCart();
+
+            BeanUtils.copyProperties(item, shoppingCart, "id");
+
+            shoppingCart.setUserId(BaseContext.getCurrentId());
+            shoppingCart.setCreateTime(LocalDateTime.now());
+
+            return shoppingCart;
+        }).collect(Collectors.toList());
+
+        shoppingCartService.saveBatch(listForShop);
     }
 }

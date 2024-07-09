@@ -103,4 +103,13 @@ public class AddressBookController {
         //SQL:select * from address_book where user_id = ? order by update_time desc
         return R.success(addressBookService.list(queryWrapper));
     }
+
+    @DeleteMapping
+    public R<String> delete(Long ids){
+        log.info("删除地址信息: {}", ids.toString());
+
+        addressBookService.removeById(ids);
+
+        return R.success("删除地址成功");
+    }
 }
