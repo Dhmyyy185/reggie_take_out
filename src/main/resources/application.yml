@@ -36,7 +36,7 @@ spring:
   main:
     allow-bean-definition-overriding: true
   redis:
-    host: localhost
+    host: 192.168.200.144
     port: 6379
     database: 0
   cache:
@@ -52,4 +52,4 @@ mybatis-plus:
     db-config:
       id-type: ASSIGN_ID
 reggie:
-  path: C:\Users\Myy\Desktop\reggie\
+  path: /usr/local/img/
