@@ -1,0 +1,11 @@
+Index: target/maven-archiver/pom.properties
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>GBK
+===================================================================
+--- target/maven-archiver/pom.properties	(date 1720542065288)
++++ target/maven-archiver/pom.properties	(date 1720542065288)
+@@ -0,0 +1,3 @@
++artifactId=reggie_take_out
++groupId=com.myyy
++version=1.0-SNAPSHOT

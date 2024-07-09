@@ -1,0 +1,430 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c78afb56-15f9-4889-8df5-12bf4db35f87" name="Default Changelist" comment="更改redis地址和图片存放路径(Linux)" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="V1.2" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="HARD" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2idaxUj9g6av7mXkfTH9iZjo68o" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java/com/myyy/reggie/config" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15332031" />
+    <property name="project.structure.side.proportion" value="0.39544344" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Myy\Desktop\reggie_take_out\src\main\java\com\myyy\reggie\config" />
+      <recent name="C:\Users\Myy\Desktop\reggie_take_out\src\main\java\com\myyy\reggie\service\impl" />
+      <recent name="C:\Users\Myy\Desktop\reggie_take_out\src\main\java\com\myyy\reggie\service" />
+      <recent name="C:\Users\Myy\Desktop\reggie_take_out\src\main\java\com\myyy\reggie\mapper" />
+      <recent name="C:\Users\Myy\Desktop\reggie_take_out\src\main\java\com\myyy\reggie\entity" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReggieApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="reggie_take_out" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.myyy.reggie.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.myyy.reggie.ReggieApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ReggieApplication" />
+        <item itemvalue="Spring Boot.ReggieApplication" />
+        <item itemvalue="Spring Boot.ReggieApplication" />
+        <item itemvalue="Spring Boot.ReggieApplication" />
+        <item itemvalue="Spring Boot.ReggieApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c78afb56-15f9-4889-8df5-12bf4db35f87" name="Default Changelist" comment="" />
+      <created>1719823155284</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1719823155284</updated>
+      <workItem from="1719823156313" duration="3896000" />
+      <workItem from="1719827097081" duration="7805000" />
+      <workItem from="1720087608700" duration="4457000" />
+      <workItem from="1720145530252" duration="16552000" />
+      <workItem from="1720172466515" duration="8404000" />
+      <workItem from="1720243029051" duration="900000" />
+      <workItem from="1720357926868" duration="1730000" />
+      <workItem from="1720360193832" duration="3696000" />
+      <workItem from="1720367222744" duration="565000" />
+      <workItem from="1720400973239" duration="27852000" />
+      <workItem from="1720450766673" duration="1579000" />
+      <workItem from="1720491471867" duration="8401000" />
+      <workItem from="1720507392445" duration="3104000" />
+      <workItem from="1720530375116" duration="2783000" />
+      <workItem from="1720536506747" duration="3155000" />
+      <workItem from="1720542566821" duration="135000" />
+      <workItem from="1720542713213" duration="541000" />
+    </task>
+    <task id="LOCAL-00001" summary="reggie init">
+      <created>1720358900838</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1720358900838</updated>
+    </task>
+    <task id="LOCAL-00002" summary="菜品管理（删除、批量删除、起售停售)、套餐管理（修改、起售停售）、订单明细">
+      <created>1720418455696</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1720418455696</updated>
+    </task>
+    <task id="LOCAL-00003" summary="菜品管理（删除、批量删除、起售停售)、套餐管理（修改、起售停售）、订单明细">
+      <created>1720426375055</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1720426375055</updated>
+    </task>
+    <task id="LOCAL-00004" summary="菜品管理（删除、批量删除、起售停售)、套餐管理（修改、起售停售）、订单明细">
+      <created>1720426442201</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1720426442201</updated>
+    </task>
+    <task id="LOCAL-00005" summary="菜品管理（删除、批量删除、起售停售)、套餐管理（修改、起售停售）、订单明细">
+      <created>1720426483516</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720426483516</updated>
+    </task>
+    <task id="LOCAL-00006" summary="redis配置">
+      <created>1720428517124</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720428517124</updated>
+    </task>
+    <task id="LOCAL-00007" summary="使用redis缓存短信验证码和菜品数据，并在对菜品改变后删除缓存">
+      <created>1720438055099</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720438055099</updated>
+    </task>
+    <task id="LOCAL-00008" summary="通过Spting Cache注解使用redis缓存套餐数据">
+      <created>1720451555349</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1720451555349</updated>
+    </task>
+    <task id="LOCAL-00009" summary="通过Spting Cache注解使用redis缓存套餐数据">
+      <created>1720451566937</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1720451566937</updated>
+    </task>
+    <task id="LOCAL-00010" summary="个人中心（退出登录、最新订单查询、历史订单、地址管理-修改地址、地址管理-删除地址），删除购物车">
+      <created>1720500391473</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1720500391473</updated>
+    </task>
+    <task id="LOCAL-00011" summary="使用sharding-jdbc实现程序的读写分离">
+      <created>1720508497455</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1720508497455</updated>
+    </task>
+    <task id="LOCAL-00012" summary="swagger配置和使用">
+      <created>1720533524471</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1720533524471</updated>
+    </task>
+    <task id="LOCAL-00013" summary="更改redis地址和图片存放路径(Linux)">
+      <created>1720540449614</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1720540449614</updated>
+    </task>
+    <task id="LOCAL-00014" summary="更改redis地址和图片存放路径(Linux)">
+      <created>1720541040239</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1720541040239</updated>
+    </task>
+    <task id="LOCAL-00015" summary="更改redis地址和图片存放路径(Linux)">
+      <created>1720543048267</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1720543048267</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="reggie init" />
+    <MESSAGE value="菜品管理（删除、批量删除、起售停售)、套餐管理（修改、起售停售）、订单明细" />
+    <MESSAGE value="redis配置" />
+    <MESSAGE value="使用redis缓存短信验证码和菜品数据，并在对菜品改变后删除缓存" />
+    <MESSAGE value="通过Spting Cache注解使用redis缓存套餐数据" />
+    <MESSAGE value="个人中心（退出登录、最新订单查询、历史订单、地址管理-修改地址、地址管理-删除地址），删除购物车" />
+    <MESSAGE value="使用sharding-jdbc实现程序的读写分离" />
+    <MESSAGE value="swagger配置和使用" />
+    <MESSAGE value="更改redis地址和图片存放路径(Linux)" />
+    <option name="LAST_COMMIT_MESSAGE" value="更改redis地址和图片存放路径(Linux)" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="609" y="82" key="#Project_Structure" timestamp="1720543132024">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="609" y="82" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1720543132024" />
+    <state x="681" y="320" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1720542064639">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="681" y="320" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1720542064639" />
+    <state x="1377" y="227" key="#com.intellij.ide.util.MemberChooser" timestamp="1720497547027">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1377" y="227" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1720497547027" />
+    <state x="1152" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1719825213297">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1152" y="446" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1719825213297" />
+    <state width="473" height="466" key="DebuggerActiveHint" timestamp="1720437253826">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="473" height="466" key="DebuggerActiveHint/0.0.1920.1040@0.0.1920.1040" timestamp="1720437253826" />
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1720542702475">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1720542702475" />
+    <state x="1145" y="393" key="FileChooserDialogImpl" timestamp="1720358292331">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1145" y="393" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1720358292331" />
+    <state x="771" y="439" key="Github.CreateGistDialog" timestamp="1720543188275">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="771" y="439" key="Github.CreateGistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1720543188275" />
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom" timestamp="1720543258195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1720543258195" />
+    <state width="1877" height="279" key="GridCell.Tab.0.center" timestamp="1720543258195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1720543258195" />
+    <state width="1877" height="279" key="GridCell.Tab.0.left" timestamp="1720543258195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1720543258195" />
+    <state width="1877" height="279" key="GridCell.Tab.0.right" timestamp="1720543258195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1720543258195" />
+    <state width="1877" height="279" key="GridCell.Tab.1.bottom" timestamp="1720543258195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1720543258195" />
+    <state width="1877" height="279" key="GridCell.Tab.1.center" timestamp="1720543258195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1720543258195" />
+    <state width="1877" height="279" key="GridCell.Tab.1.left" timestamp="1720543258195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1720543258195" />
+    <state width="1877" height="279" key="GridCell.Tab.1.right" timestamp="1720543258195">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="279" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1720543258195" />
+    <state width="1877" height="372" key="GridCell.Tab.2.bottom" timestamp="1720500417163">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="372" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1720500417163" />
+    <state width="1877" height="372" key="GridCell.Tab.2.center" timestamp="1720500417162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="372" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1720500417162" />
+    <state width="1877" height="372" key="GridCell.Tab.2.left" timestamp="1720500417162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="372" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1720500417162" />
+    <state width="1877" height="372" key="GridCell.Tab.2.right" timestamp="1720500417162">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="372" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1720500417162" />
+    <state x="864" y="175" key="Maven.ArtifactSearchDialog" timestamp="1720448800523">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="864" y="175" key="Maven.ArtifactSearchDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1720448800523" />
+    <state x="538" y="275" width="1051" height="479" key="MultipleFileMergeDialog" timestamp="1720543104287">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="538" y="275" width="1051" height="479" key="MultipleFileMergeDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1720543104287" />
+    <state x="742" y="240" key="RollbackChangesDialog" timestamp="1720542635900">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="742" y="240" key="RollbackChangesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1720542635900" />
+    <state x="458" y="213" width="998" height="708" key="SettingsEditor" timestamp="1720542962155">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="458" y="213" width="998" height="708" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1720542962155" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1720543061797">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1720543061797" />
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1720542596795">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="763" y="433" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1920.1040@0.0.1920.1040" timestamp="1720542596795" />
+    <state x="1036" y="223" width="596" height="594" key="find.popup" timestamp="1720172883158">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1036" y="223" width="596" height="594" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1720172883158" />
+    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1720359296221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="761" y="426" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1720359296221" />
+    <state x="656" y="248" key="new project wizard" timestamp="1720244328641">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="656" y="248" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1720244328641" />
+    <state x="995" y="230" width="672" height="678" key="search.everywhere.popup" timestamp="1720434357243">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="995" y="230" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1720434357243" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="com.myyy.reggie.controller.OrderController" memberName="orderService" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="((ArrayList)list).elementData" custom="java.util.ArrayList" />
+      </configuration>
+    </watches-manager>
+  </component>
+</project>
